@@ -1,0 +1,4 @@
+interface:
+  display_name: "百变服装侧脸时装涂鸦 V2"
+  short_description: "把照片穿搭转译成游移细线、随性平涂色块与手绘纹样插画"
+  default_prompt: "使用 $generate-variable-fashion-profile-v2，将我的人物照片和可见穿搭转译成图二风格的松散时装插画。"
