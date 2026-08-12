@@ -1,0 +1,4 @@
+interface:
+  display_name: "固定装束侧脸时装涂鸦"
+  short_description: "上传左侧脸和身高，锁定装束与步态并调整腿长比例"
+  default_prompt: "Use $generate-fixed-fashion-profile with my uploaded left-profile portrait and height_cm to replace the identity and adapt only the leg proportions in the locked fashion-doodle template."
