@@ -10,7 +10,7 @@ Two Codex image-generation skills for turning a person reference photo into a lo
 
 ## Skills
 
-### `hm-generate-fixed-fashion-profile`
+### `hm-generate-fixed-fashion-profile-v1`
 
 V1 keeps the bundled walking pose, wardrobe, palette, shoes, background, and composition fixed. The uploaded photo changes only the identity above the neck. An optional height value adjusts only the stylized leg-length proportion.
 
@@ -19,7 +19,7 @@ V1 固定模板中的步态、服装、配色、鞋袜、背景与构图。上�
 Typical invocation:
 
 ```text
-Use $hm-generate-fixed-fashion-profile with this profile photo and height_cm 180.
+Use $hm-generate-fixed-fashion-profile-v1 with this profile photo and height_cm 180.
 ```
 
 ### `hm-generate-variable-fashion-profile-v2`
@@ -42,18 +42,18 @@ V1 contains two paired examples. Both preserve the same fixed outfit, walking rh
 
 V1 包含两组输入/输出范例。两组都保持同一套固定服装、步态、配色、鞋袜、方格纸背景，以及松散线条与色块语言；只替换颈部以上的人物特征，并可按输入身高调整腿长比例。
 
-#### V1 example A — elderly fixed-fashion profile / 老人固定穿搭范例
+#### V1 example A — elderly fixed-fashion profile / 老人固定穿搭范例（网络参考图）
 
 **Input photograph / 输入照片**
 
 <p align="center">
-  <img src="hm-generate-fixed-fashion-profile/assets/examples/elderly-fixed-fashion-input-rights-unverified.png" width="560" alt="Elderly fixed-fashion input photograph, publication rights unverified">
+  <img src="hm-generate-fixed-fashion-profile-v1/assets/examples/elderly-fixed-fashion-input-rights-unverified.png" width="560" alt="Elderly fixed-fashion input photograph, publication rights unverified">
 </p>
 
 **Generated illustration / 生成插画**
 
 <p align="center">
-  <img src="hm-generate-fixed-fashion-profile/assets/examples/elderly-fixed-fashion-output.png" width="560" alt="V1 elderly fixed-fashion illustration output">
+  <img src="hm-generate-fixed-fashion-profile-v1/assets/examples/elderly-fixed-fashion-output.png" width="560" alt="V1 elderly fixed-fashion illustration output">
 </p>
 
 #### V1 example B — Haaland profile and height / 哈兰德侧脸与身高范例
@@ -65,13 +65,13 @@ This pair demonstrates identity transfer and the `190 cm → 1.20` stylized leg 
 **Input photograph / 输入照片**
 
 <p align="center">
-  <img src="hm-generate-fixed-fashion-profile/assets/examples/haaland-profile-input-rights-unverified.jpeg" width="420" alt="Haaland profile input photograph, publication rights unverified">
+  <img src="hm-generate-fixed-fashion-profile-v1/assets/examples/haaland-profile-input-rights-unverified.jpeg" width="420" alt="Haaland profile input photograph, publication rights unverified">
 </p>
 
 **Generated illustration / 生成插画**
 
 <p align="center">
-  <img src="hm-generate-fixed-fashion-profile/assets/examples/haaland-profile-output.png" width="560" alt="V1 Haaland profile and 190 cm height illustration output">
+  <img src="hm-generate-fixed-fashion-profile-v1/assets/examples/haaland-profile-output.png" width="560" alt="V1 Haaland profile and 190 cm height illustration output">
 </p>
 
 > V1 source note: The Haaland photograph was obtained from the internet. Publication rights for the bundled elderly and Haaland input photographs have not been verified. Keep them for private testing only until permission is confirmed or licensed replacements are provided.
@@ -126,7 +126,7 @@ This is an illustration proportion rule, not an anatomical measurement. 输入�
 ## Repository structure
 
 ```text
-hm-generate-fixed-fashion-profile/
+hm-generate-fixed-fashion-profile-v1/
 ├── SKILL.md
 ├── agents/openai.yaml
 ├── assets/
@@ -144,7 +144,7 @@ hm-generate-variable-fashion-profile-v2/
 Copy either complete skill directory into your Codex skills directory. Keep the directory name unchanged because it must match the `name` field in `SKILL.md`.
 
 ```text
-~/.codex/skills/hm-generate-fixed-fashion-profile/
+~/.codex/skills/hm-generate-fixed-fashion-profile-v1/
 ~/.codex/skills/hm-generate-variable-fashion-profile-v2/
 ```
 
@@ -166,6 +166,6 @@ The bundled examples document the accepted visual direction and the difference b
 ## Naming
 
 - Human-facing prefix: `HM`
-- Machine-readable skill names: `hm-generate-fixed-fashion-profile` and `hm-generate-variable-fashion-profile-v2`
+- Machine-readable skill names: `hm-generate-fixed-fashion-profile-v1` and `hm-generate-variable-fashion-profile-v2`
 
 Codex skill names use lowercase letters, digits, and hyphens. The uppercase `HM` prefix is retained in the interface display names.

@@ -1,4 +1,0 @@
-interface:
-  display_name: "HM-generate-fixed-fashion-profile"
-  short_description: "上传左侧脸和身高，锁定装束与步态并调整腿长比例"
-  default_prompt: "使用 $hm-generate-fixed-fashion-profile，根据我上传的左侧脸照片和身高替换人物身份，并只调整固定涂鸦装束模板中的腿部比例。"

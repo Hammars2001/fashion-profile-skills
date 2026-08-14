@@ -1,9 +1,9 @@
 ---
-name: hm-generate-fixed-fashion-profile
-description: Generate a vertical loose color-block editorial fashion illustration from one uploaded left-profile portrait while locking the bundled walking pose, wardrobe, palette, background grid, framing, and doodle treatment, with an optional height_cm variable that changes leg proportions relative to the 170 cm template. Use when the user uploads a left-side face/profile photo and asks for the established fixed-outfit illustration, asks to replace only the head or identity above the neck, provides a target height, or asks to keep the outfit and stride while adapting stature.
+name: hm-generate-fixed-fashion-profile-v1
+description: Generate a V1 vertical loose color-block editorial fashion illustration from one uploaded left-profile portrait while locking the bundled walking pose, wardrobe, palette, background grid, framing, and doodle treatment, with an optional height_cm variable that changes leg proportions relative to the 170 cm template. Use when the user asks for HM V1, uploads a left-side face/profile photo and wants the established fixed-outfit illustration, asks to replace only the head or identity above the neck, provides a target height, or asks to keep the outfit and stride while adapting stature.
 ---
 
-# Generate Fixed Fashion Profile
+# Generate Fixed Fashion Profile V1
 
 Create one bitmap illustration by editing the bundled template at `assets/locked-fashion-template.png`. Treat the template as the source of truth for every pixel-level visual decision below the neck and for the overall composition. Treat the user's portrait only as an identity reference above the neck.
 
