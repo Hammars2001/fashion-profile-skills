@@ -74,9 +74,7 @@ This pair demonstrates identity transfer and the `190 cm → 1.20` stylized leg 
   <img src="hm-generate-fixed-fashion-profile-v1/assets/examples/haaland-profile-output.png" width="560" alt="V1 Haaland profile and 190 cm height illustration output">
 </p>
 
-> V1 source note: The Haaland photograph was obtained from the internet. Publication rights for the bundled elderly and Haaland input photographs have not been verified. Keep them for private testing only until permission is confirmed or licensed replacements are provided.
->
-> V1 来源说明：哈兰德照片来自网络；老人及哈兰德两张输入照片的公开发布权均尚未核实。确认授权或替换为有明确许可的图片前，仅用于私有测试。
+> 来源说明：参考输入图片均来自网络，如有侵权请告知撤换，仅作示例用。
 
 ### V2 — variable fashion / 百变穿搭
 
@@ -96,9 +94,7 @@ The female silver-suit pair demonstrates V2's defining behavior: preserve the vi
   <img src="hm-generate-variable-fashion-profile-v2/assets/examples/female-silver-suit-output.png" width="560" alt="V2 female silver-suit variable-fashion illustration output">
 </p>
 
-> V2 source note: Publication rights for the female input photograph have not been verified. Confirm permission or replace it with a licensed image before making the repository public.
->
-> V2 来源说明：女性输入照片的公开发布权尚未核实。仓库转为公开前，请确认授权或替换为具备明确许可的图片。
+> 来源说明：参考输入图片均来自网络，如有侵权请告知撤换，仅作示例用。
 
 ## V1 and V2 at a glance
 
