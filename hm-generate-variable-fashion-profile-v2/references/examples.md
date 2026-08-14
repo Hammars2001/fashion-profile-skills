@@ -8,7 +8,7 @@ V2 必须保留两个范例：第一个完整承接 V1，第二个展示服装�
 
 输出：`../assets/examples/v1-height-190-profile-output.png`
 
-这两个文件从 `hermes-generate-fixed-fashion-profile/assets/examples/` 原样复制而来，内容不改。它们用于承接 V1 已经确认的标准：以 170 cm 为基准处理 190 cm 人物、腿部比例约为 `1.20`、保留侧脸行走节奏、完整双鞋、竖构图和原有固定穿搭。
+这两个文件从 `hm-generate-fixed-fashion-profile/assets/examples/` 原样复制而来，内容不改。它们用于承接 V1 已经确认的标准：以 170 cm 为基准处理 190 cm 人物、腿部比例约为 `1.20`、保留侧脸行走节奏、完整双鞋、竖构图和原有固定穿搭。
 
 在 V2 中，这个案例只是继承下来的基线范例。不能因为它使用了固定穿搭，就把 V2 的功能误解为固定穿搭；V2 生成新图时，衣服必须服从本次上传的服装照片。
 

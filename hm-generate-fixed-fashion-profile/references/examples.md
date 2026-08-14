@@ -23,7 +23,7 @@ The identity image is bundled locally because the user explicitly requested it a
 ### Example invocation
 
 ```text
-Use $hermes-generate-fixed-fashion-profile with my uploaded left-profile portrait and height_cm 190.
+Use $hm-generate-fixed-fashion-profile with my uploaded left-profile portrait and height_cm 190.
 Replace only the identity above the neck. Keep the upper body, outfit, palette, background, and
 walking gesture locked. Lengthen both thigh and lower-leg segments to 1.20 times the template
 length along their existing stride directions, extend the trouser grid at the original visual

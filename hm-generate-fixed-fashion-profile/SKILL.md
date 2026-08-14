@@ -1,5 +1,5 @@
 ---
-name: hermes-generate-fixed-fashion-profile
+name: hm-generate-fixed-fashion-profile
 description: Generate a vertical loose color-block editorial fashion illustration from one uploaded left-profile portrait while locking the bundled walking pose, wardrobe, palette, background grid, framing, and doodle treatment, with an optional height_cm variable that changes leg proportions relative to the 170 cm template. Use when the user uploads a left-side face/profile photo and asks for the established fixed-outfit illustration, asks to replace only the head or identity above the neck, provides a target height, or asks to keep the outfit and stride while adapting stature.
 ---
 

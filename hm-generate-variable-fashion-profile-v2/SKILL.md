@@ -1,5 +1,5 @@
 ---
-name: hermes-generate-variable-fashion-profile-v2
+name: hm-generate-variable-fashion-profile-v2
 description: "生成竖版时装人物插画，使用照片中的人物身份与可见穿搭，并统一转译为 V2 主风格：游移的黑色速写线、可读但不规整的轮廓、平涂色块、非真实角形阴影、手绘纹样与方格纸背景。V2 的核心区别是服装可随每次上传的照片自由变化；V1 则固定穿衣风格。用于百变服装、穿搭随照片变化、照片匹配服装、侧脸行走时装插画、可选身高调整，或用户明确要求使用 V2 风格时。"
 ---
 
@@ -121,7 +121,7 @@ description: "生成竖版时装人物插画，使用照片中的人物身份与
 
 - 输入：`assets/examples/v1-height-190-profile-input-rights-unverified.jpeg`
 - 输出：`assets/examples/v1-height-190-profile-output.png`
-- 这个输入/输出文件从 Hermes V1 的 `assets/examples/` 原样复制而来，不改内容。
+- 这个输入/输出文件从 HM V1 的 `assets/examples/` 原样复制而来，不改内容。
 - 用途：承接 V1 已确认的 190 cm 身高、行走步态、竖构图与身高比例标准。它是 V2 的继承案例，不是 V2 的固定服装规则。
 
 ### 范例二：V2 女性银灰套装的可变穿搭案例
