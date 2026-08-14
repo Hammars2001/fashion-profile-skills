@@ -1,45 +1,51 @@
-# Examples
+# V1 Examples
 
-## Height-adaptive profile example
+Use both paired examples to verify that V1 replaces identity above the neck while keeping the bundled walking pose, outfit, palette, background, and composition fixed.
 
-Use this example to verify simultaneous identity replacement and height adaptation.
+## Example A: elderly fixed-fashion profile
 
-Prompt suggestion: include the person's height together with the profile photo. The skill will estimate a suitable leg-length proportion relative to the 170 cm template; the user does not need to calculate or specify a leg-length percentage manually. This is a visual approximation, not an anatomical measurement.
+- Input: `../assets/examples/elderly-fixed-fashion-input-rights-unverified.png`
+- Output: `../assets/examples/elderly-fixed-fashion-output.png`
+- Edit target: `../assets/locked-fashion-template.png`
+- Height: use the 170 cm baseline unless the user supplies another value.
 
-### Inputs
+The input supplies the elderly subject's balding head shape, loose gray-white hair, forehead, ear, nose, lips, jaw, skin tone, and expression. The output demonstrates that these above-neck identity features can be translated into loose profile marks while the V1 clothing and walking template remain fixed.
 
-- Identity input: `../assets/examples/height-190-blond-profile-input-rights-unverified.jpeg`, a clear left-facing profile photograph of a clean-shaven adult with very light blond hair slicked backward into a tied ponytail
+### Input
+
+![Elderly fixed-fashion input, publication rights unverified](../assets/examples/elderly-fixed-fashion-input-rights-unverified.png)
+
+### Output
+
+![Elderly fixed-fashion illustration output](../assets/examples/elderly-fixed-fashion-output.png)
+
+## Example B: Haaland profile with height adaptation
+
+- Input: `../assets/examples/haaland-profile-input-rights-unverified.jpeg`
+- Output: `../assets/examples/haaland-profile-output.png`
+- Edit target: `../assets/locked-fashion-template.png`
 - `template_height_cm`: `170`
 - `target_height_cm`: `190`
 - `leg_scale`: `1.20`
-- Edit target: `../assets/locked-fashion-template.png`
 
-The identity image is bundled locally because the user explicitly requested it as the example input. Its publication rights have not been verified. Before publishing this Skill publicly, confirm permission or replace it with a licensed equivalent and remove the `rights-unverified` label.
+The input supplies the very light blond hair slicked backward into a tied ponytail, forehead-to-nose profile, broad jaw, and squared chin. The output demonstrates simultaneous identity replacement and stylized height adaptation.
 
-### Reference input
+### Input
 
-![Rights-unverified 190 cm blond profile input](../assets/examples/height-190-blond-profile-input-rights-unverified.jpeg)
+![Haaland profile input obtained from the internet, publication rights unverified](../assets/examples/haaland-profile-input-rights-unverified.jpeg)
 
-### Example invocation
+### Output
 
-```text
-Use $hm-generate-fixed-fashion-profile with my uploaded left-profile portrait and height_cm 190.
-Replace only the identity above the neck. Keep the upper body, outfit, palette, background, and
-walking gesture locked. Lengthen both thigh and lower-leg segments to 1.20 times the template
-length along their existing stride directions, extend the trouser grid at the original visual
-density, keep the shoe size unchanged, and keep both shoes fully visible.
-```
+![Haaland 190 cm fixed-fashion illustration output](../assets/examples/haaland-profile-output.png)
 
-### Acceptance criteria
+## Acceptance criteria
 
-- Preserve the recognizable pale blond slicked-back hair, tied tail, forehead-to-nose profile, broad jaw, and squared chin without photographic rendering.
-- Preserve the original hip anchor, knee bends, stride directions, foot orientations, upper-body proportions, coat, scarf, sunglasses, socks, shoes, and background treatment.
-- Make both legs visibly longer than the 170 cm template without uniformly scaling the full figure.
+- Preserve the recognizable head silhouette and key profile features without photographic rendering.
+- Keep the V1 coat, scarf, sunglasses, trousers, socks, shoes, graph-paper background, and walking gesture fixed.
+- For the 190 cm example, make both legs visibly longer than the 170 cm template without uniformly scaling the full figure.
 - Continue the trouser grid with additional irregular marks instead of stretching existing cells.
 - Keep both shoes fully visible with generous top and bottom margins.
 
-### Accepted output
+## Publication-rights note
 
-![Accepted 190 cm height-adaptation output](../assets/examples/height-190-blond-profile-output.png)
-
-This generated output is bundled as the paired visual acceptance reference.
+The Haaland photograph was obtained from the internet. Publication rights for both bundled input photographs have not been verified. They are included for private workflow testing only. Before publishing the Skill publicly, confirm permission or replace them with licensed equivalents.

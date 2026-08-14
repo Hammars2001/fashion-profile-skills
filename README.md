@@ -38,35 +38,67 @@ Use $hm-generate-variable-fashion-profile-v2 to turn this full-body fashion phot
 
 ### V1 — fixed fashion / 固定穿搭
 
-The elderly walking figure is the original fixed-fashion reference. V1 locks this walking rhythm, outfit, palette, shoes, graph-paper background, and loose line-and-color-block language; a new profile photo changes only the identity above the neck, plus the optional height-driven leg proportion.
+V1 contains two paired examples. Both preserve the same fixed outfit, walking rhythm, palette, shoes, graph-paper background, and loose line-and-color-block language. Only the identity above the neck and the optional height-driven leg proportion change.
 
-下图老人行走插画是 V1 的固定穿搭基准。V1 会锁定步态、服装、配色、鞋袜、方格纸背景，以及松散线条与色块语言；新的侧脸照片只替换颈部以上的人物特征，并可按输入身高调整腿长比例。
+V1 包含两组输入/输出范例。两组都保持同一套固定服装、步态、配色、鞋袜、方格纸背景，以及松散线条与色块语言；只替换颈部以上的人物特征，并可按输入身高调整腿长比例。
 
-<p align="center">
-  <img src="hm-generate-fixed-fashion-profile/assets/examples/v1-fixed-elderly-reference.png" width="560" alt="V1 fixed-fashion elderly walking illustration reference">
-</p>
+#### V1 example A — elderly fixed-fashion profile / 老人固定穿搭范例
 
-### V2 — variable fashion / 百变穿搭
-
-This Haaland pair is a profile-and-height continuity example inherited from V1 and included in V2. It demonstrates identity transfer, the established illustration language, and the `190 cm → 1.20` stylized leg scale. It does **not** make the pictured outfit a V2 clothing template: in normal V2 use, clothing follows the visible outfit in each newly uploaded photo.
-
-这组哈兰德范例从 V1 原样平移到 V2，用于承接人物侧脸、既定画风与 `190 cm → 1.20` 风格化腿长比例。它**不是** V2 的固定服装模板；正常使用 V2 时，插画服装仍会跟随每次新上传照片中的可见穿搭变化。
-
-> Source note: The Haaland input photograph was obtained from the internet and is included only for private testing and workflow reference. Its publication rights have not been verified. Confirm permission or replace it with a licensed image before making the repository public.
->
-> 来源说明：哈兰德输入照片来自网络，目前仅用于私有测试及流程参考，尚未核实公开发布权。仓库转为公开前，请确认授权或替换为具备明确许可的图片。
-
-**Input reference / 输入照片**
+**Input photograph / 输入照片**
 
 <p align="center">
-  <img src="hm-generate-variable-fashion-profile-v2/assets/examples/v1-height-190-profile-input-rights-unverified.jpeg" width="420" alt="Haaland profile input photograph, rights unverified">
+  <img src="hm-generate-fixed-fashion-profile/assets/examples/elderly-fixed-fashion-input-rights-unverified.png" width="560" alt="Elderly fixed-fashion input photograph, publication rights unverified">
 </p>
 
 **Generated illustration / 生成插画**
 
 <p align="center">
-  <img src="hm-generate-variable-fashion-profile-v2/assets/examples/v1-height-190-profile-output.png" width="560" alt="V2 Haaland profile and 190 cm height illustration example">
+  <img src="hm-generate-fixed-fashion-profile/assets/examples/elderly-fixed-fashion-output.png" width="560" alt="V1 elderly fixed-fashion illustration output">
 </p>
+
+#### V1 example B — Haaland profile and height / 哈兰德侧脸与身高范例
+
+This pair demonstrates identity transfer and the `190 cm → 1.20` stylized leg scale while keeping the V1 clothing template fixed.
+
+这组范例用于展示人物侧脸替换，以及 `190 cm → 1.20` 的风格化腿长比例；V1 的固定服装模板保持不变。
+
+**Input photograph / 输入照片**
+
+<p align="center">
+  <img src="hm-generate-fixed-fashion-profile/assets/examples/haaland-profile-input-rights-unverified.jpeg" width="420" alt="Haaland profile input photograph, publication rights unverified">
+</p>
+
+**Generated illustration / 生成插画**
+
+<p align="center">
+  <img src="hm-generate-fixed-fashion-profile/assets/examples/haaland-profile-output.png" width="560" alt="V1 Haaland profile and 190 cm height illustration output">
+</p>
+
+> V1 source note: The Haaland photograph was obtained from the internet. Publication rights for the bundled elderly and Haaland input photographs have not been verified. Keep them for private testing only until permission is confirmed or licensed replacements are provided.
+>
+> V1 来源说明：哈兰德照片来自网络；老人及哈兰德两张输入照片的公开发布权均尚未核实。确认授权或替换为有明确许可的图片前，仅用于私有测试。
+
+### V2 — variable fashion / 百变穿搭
+
+The female silver-suit pair demonstrates V2's defining behavior: preserve the visible clothing category, silhouette, layers, colors, accessories, and shoes from the uploaded photograph, then translate them into the established loose illustration language. This is an example, not a fixed female clothing template.
+
+银灰套装女性范例用于说明 V2 的核心功能：保留上传照片中可见的服装类别、廓形、层次、颜色、配饰与鞋子，再统一转译成既定的松散插画语言。它只是范例，不是固定女性服装模板。
+
+**Input photograph / 输入照片**
+
+<p align="center">
+  <img src="hm-generate-variable-fashion-profile-v2/assets/examples/female-silver-suit-input-rights-unverified.jpeg" width="420" alt="Female silver-suit variable-fashion input photograph, publication rights unverified">
+</p>
+
+**Generated illustration / 生成插画**
+
+<p align="center">
+  <img src="hm-generate-variable-fashion-profile-v2/assets/examples/female-silver-suit-output.png" width="560" alt="V2 female silver-suit variable-fashion illustration output">
+</p>
+
+> V2 source note: Publication rights for the female input photograph have not been verified. Confirm permission or replace it with a licensed image before making the repository public.
+>
+> V2 来源说明：女性输入照片的公开发布权尚未核实。仓库转为公开前，请确认授权或替换为具备明确许可的图片。
 
 ## V1 and V2 at a glance
 
@@ -127,9 +159,9 @@ Restart or refresh Codex after installation if the skills do not appear immediat
 
 ## Examples and publishing rights
 
-The bundled examples document the accepted visual direction and the difference between fixed and variable clothing. One blond-profile example is currently marked `rights-unverified`. Confirm publication permission or replace that source image with a licensed equivalent before making this repository public.
+The bundled examples document the accepted visual direction and the difference between fixed and variable clothing. All bundled input photographs marked `rights-unverified` are for private workflow testing only. Confirm publication permission or replace them with licensed equivalents before making this repository public.
 
-仓库中的范例用于说明画风和版本差异。其中一张金发侧脸输入图目前标记为 `rights-unverified`；在公开仓库前，应确认发布授权，或替换为具备明确许可的图片。
+仓库中的范例用于说明画风和版本差异。所有标记为 `rights-unverified` 的输入照片目前仅用于私有流程测试；在公开仓库前，应确认发布授权，或替换为具备明确许可的图片。
 
 ## Naming
 

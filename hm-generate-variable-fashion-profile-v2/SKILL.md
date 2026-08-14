@@ -12,8 +12,7 @@ description: "生成竖版时装人物插画，使用照片中的人物身份与
 
 - **V1：固定穿衣风格。** V1 的衣服、配色、鞋袜和整体穿搭是模板的一部分，只替换头像、发型、脸型以及可选的身高比例。
 - **V2：百变穿衣风格。** V2 固定的是图二的画风、线条语言、平面化处理、步态节奏、构图和背景版式；衣服必须根据本次上传照片中实际可见的服装自由变化。
-- V2 的女性银灰套装照片与插画只是第二个工作范例，不是女性服装模板，也不限制性别、服装类别、颜色或配饰。
-- V2 的第一个范例是从 V1 原样平移过来的身高案例，用来承接已有标准；它不应把 V2 重新变成固定穿搭技能。
+- V2 的女性银灰套装照片与插画是可变穿搭工作范例，不是女性服装模板，也不限制性别、服装类别、颜色或配饰。
 - 保留 `assets/style-source-reference.png` 仅作为风格来源记录；正常生成时不要把它作为主要参考图。以 `assets/style-master-reference.png` 的图二效果为准。
 
 ## 输入约定
@@ -113,26 +112,14 @@ description: "生成竖版时装人物插画，使用照片中的人物身份与
 8. 如果明显偏离图二、变成写实摄影、出现材质纹理、过度空缺或画风泛化，最多重试一次，只修正观察到的偏差。不要默认把画面做得比图二更抽象。
 9. 非破坏性保存并展示结果。
 
-## 两个范例
+## 范例
 
-读取 [references/examples.md](references/examples.md) 来验证流程或说明预期转换。V2 必须保留以下两个范例：
+读取 [references/examples.md](references/examples.md) 来验证流程或说明预期转换。V2 保留一组女性银灰套装的可变穿搭输入/输出范例：
 
-### 范例一：从 V1 原样平移的身高案例
-
-- 输入：`assets/examples/v1-height-190-profile-input-rights-unverified.jpeg`
-- 输出：`assets/examples/v1-height-190-profile-output.png`
-- 这个输入/输出文件从 HM V1 的 `assets/examples/` 原样复制而来，不改内容。
-- 用途：承接 V1 已确认的 190 cm 身高、行走步态、竖构图与身高比例标准。它是 V2 的继承案例，不是 V2 的固定服装规则。
-
-### 范例二：V2 女性银灰套装的可变穿搭案例
-
-- 配对板：`assets/examples/female-silver-suit-pair-example.png`
-- 输入：`assets/examples/female-silver-suit-input.png`
+- 输入：`assets/examples/female-silver-suit-input-rights-unverified.jpeg`
 - 输出：`assets/examples/female-silver-suit-output.png`
 - 该案例说明：照片里显示银灰色西装外套、内搭、长裙、丝袜、低跟鞋、手袋和配饰时，V2 会保留这些服装类别与主要轮廓，再统一转译成图二的线条和色块语言。
 - 该女性案例只是一个生成范例，不是固定的女性模板；后续照片显示什么服装，插画就按对应服装类型进行简化转译。
-
-配对板仅用于文档说明，不要把带有标签和左右拼图的配对板作为单张生成参考图。
 
 ## 提示词骨架
 

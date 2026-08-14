@@ -112,9 +112,14 @@ realistic portrait rendering, detailed fabric or shoes, clean vector outlines, p
 3D, glossy shading, extra people, props, text, logos, or watermark.
 ```
 
-## Bundled example
+## Bundled examples
 
-Read [references/examples.md](references/examples.md) when applying or evaluating the height variable. Use the bundled height-adaptive output as a visual acceptance reference for adjusted legs, preserved stride, stable wardrobe, and full-body framing. Do not use the example output as the edit target; always start from `assets/locked-fashion-template.png`.
+Read [references/examples.md](references/examples.md) when applying or evaluating identity replacement and the height variable. Keep both V1 input/output pairs:
+
+- elderly fixed-fashion input and output;
+- Haaland profile input and 190 cm height-adaptive output.
+
+Use them as visual acceptance references for head replacement, fixed wardrobe, preserved stride, adjusted legs, and full-body framing. Do not use either example output as the edit target; always start from `assets/locked-fashion-template.png`.
 
 ## Failure corrections
 
