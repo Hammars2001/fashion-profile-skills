@@ -4,10 +4,6 @@ Two Codex image-generation skills for turning a person reference photo into a lo
 
 本仓库包含两个 Codex 图像生成 Skill，用于把人物参考照片转译成松散的编辑感时装插画：游移墨线、平涂色块、手绘纹样与暖米白方格纸构图。
 
-> Status: private testing. The repository is not yet intended for public distribution.
->
-> 当前状态：非公开测试中，暂不建议公开分发。
-
 ## Skills
 
 ### `hm-generate-fixed-fashion-profile-v1`
@@ -152,12 +148,6 @@ Restart or refresh Codex after installation if the skills do not appear immediat
 - V2 needs enough visible clothing to identify the intended outfit. If trousers, skirt, or shoes are hidden, provide another photo or a short text description.
 - Height is optional; omitted height defaults to `170 cm`.
 - Exact logos and unreadable text are normally simplified or omitted.
-
-## Examples and publishing rights
-
-The bundled examples document the accepted visual direction and the difference between fixed and variable clothing. All bundled input photographs marked `rights-unverified` are for private workflow testing only. Confirm publication permission or replace them with licensed equivalents before making this repository public.
-
-仓库中的范例用于说明画风和版本差异。所有标记为 `rights-unverified` 的输入照片目前仅用于私有流程测试；在公开仓库前，应确认发布授权，或替换为具备明确许可的图片。
 
 ## Naming
 
